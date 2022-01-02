@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Institute of Science Education and Research,Berhampur</title>
+    <link rel="stylesheet" href="design1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/665f1baf2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="iiser18.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+
+    </section>
+
+<!-- -------------about us content---------------- -->
+<!-- --------------contact us -----------  -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.902161742459!2d84.83739961456278!3d19.199475187017196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d5c0ea3b96c51%3A0xc65c771b520b146b!2sIISER%20Berhampur%20Permanent%20Campus!5e0!3m2!1sen!2sin!4v1641089558499!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contactus">
+    <div class="row">
+        <div class="contactcol">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Laudigam Village Road,Laudigam</h5>
+                    <p>Berhampur,Odisha,IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 0123456789</h5>
+                    <p>Monday to saturday</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>iiserbpr.ac.in</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contactcol">
+            <form action="form_handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="herobtn redbtn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- ---------------Info---------------------------- -->
+
+   
+
+    <!-- -----------permanent campus--------------- -->
+
+   
+
+    <!-- ----------footer---------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus in maxime perferendis harum non praesentium.
+            <br> Deleniti, ducimus, error, ipsum dignissimos alias voluptates iste adipisci eligendi a id atque nam
+            repellat.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Rudra Prasad</p>
+
+    </section>
+
+
+
+
+
+    <!-- --------------Javascript for toggle menu----------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
